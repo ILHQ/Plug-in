@@ -16,12 +16,12 @@ Vue.use(lpay);
 
 ## 基本用法
 ```javascript
-    <vpay ref="vpay"
+    <lpay ref="lpay"
           v-model:show="show"
           @close="close"
           @forget="forget"
           @input-end="toOptions">
-    </vpay>
+    </lpay>
 ```
 
 ## API
