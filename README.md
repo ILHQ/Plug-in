@@ -1,6 +1,11 @@
 # vue-pay
 
-> A Vue.js project
+> 测试插件
+
+# 插件安装
+```javascript
+npm i lpay
+```
 
 ## Build Setup
 
