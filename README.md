@@ -1,4 +1,4 @@
-# vue-pay
+# lpay
 
 > 测试插件
 
@@ -22,6 +22,10 @@ Vue.use(lpay);
           @forget="forget"
           @input-end="toOptions">
     </lpay>
+    成功回调
+    this.$refs.lpay.success();
+    失败回调
+    this.$refs.lpay.error();
 ```
 
 ## API
