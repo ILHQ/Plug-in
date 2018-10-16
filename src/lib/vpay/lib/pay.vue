@@ -1,5 +1,5 @@
 <template>
-  <div class="pay_box" v-if="show">
+  <div class="pay_box" v-if="isShow">
     <div class="content">
       <div class="title">
         <i class="iconfont icon-back" @click="cancel"></i>
@@ -64,11 +64,11 @@
 
   export default {
     model: {
-      prop: 'show',
+      prop: 'isShow',
       event: 'change'
     },
     props: {
-      show: {
+      isShow: {
         type: Boolean,
         required: true,
         default: false,

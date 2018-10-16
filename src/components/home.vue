@@ -2,22 +2,22 @@
   <div>
     <button @click="show = true">open</button>
     <vpay ref="vpay"
-          v-model:show="show"
+          v-model:isShow="isShow"
           @close="close"
           @forget="forget"
           @input-end="toOptions"></vpay>
   </div>
 </template>
 <script>
-  import vpay from '../test/pay.vue'
+//  import vpay from '../test/pay.vue'
   export default {
     components: {
-      vpay
+//      vpay
     },
     computed: {},
     data() {
       return {
-        show: false
+        isShow: false
       };
     },
     methods: {

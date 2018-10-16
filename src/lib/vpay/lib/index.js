@@ -1,4 +1,4 @@
-import vpay from 'pay.vue';
+import vpay from './pay.vue';
 
 // 定义我们的插件
 const myPlugin = {
