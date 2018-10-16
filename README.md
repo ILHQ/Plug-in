@@ -2,9 +2,16 @@
 
 > 测试插件
 
-# 插件安装
+## 插件安装
 ```javascript
 npm i lpay
+```
+## 引入插件
+```javascript
+import Vue from 'vue';
+import lpay from 'lpay';
+
+Vue.use(lpay);
 ```
 
 ## Build Setup
