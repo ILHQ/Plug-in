@@ -25,10 +25,14 @@ Vue.use(lpay);
 ```
 
 ## API
-|列名1|列名2|
+|参数|说明|类型|默认值|
 |:---|:---|
-|列1的内容1|列2的内容1|
-|列1的内容2|列2的内容2|
+|isShow|组件的显示隐藏|Boolean|false|
+|digit|密码框位数|Number|6|
+|title|弹窗标题|String|请输入支付密码|
+|loadingText|正在支付的文字提示|String|正在支付|
+|finishedText|支付成功的文字提示|String|支付成功|
+|duration|支付成功的提示显示时间|Number|500|
 
 ## Build Setup
 
