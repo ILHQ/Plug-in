@@ -26,7 +26,7 @@ Vue.use(lpay);
 
 ## API
 |参数|说明|类型|默认值|
-|:---|:---|
+|:---|:---|:---|:---|
 |isShow|组件的显示隐藏|Boolean|false|
 |digit|密码框位数|Number|6|
 |title|弹窗标题|String|请输入支付密码|
